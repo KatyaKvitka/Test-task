@@ -1,0 +1,20 @@
+<div class="container" >
+    <div class="title">{{ 'WELCOME' | translate }}</div> 
+        <form name="test" ng-submit="login()">
+            <div class="panel-body">
+                <div>
+                    <div>
+                        <input  id="email" type="text" ng-model="username" placeholder="{{'LOGIN' | translate }}"/>
+                    </div>
+                </div>
+ 
+                <div class="row">
+                    <div>
+                        <input id="password" type="password" placeholder="{{'PASS' | translate}}" />
+                    </div>
+                </div>
+ 				
+ 				<button>{{ 'SUBMIT' | translate }}</button>
+            </div>
+        </form>
+</div>
